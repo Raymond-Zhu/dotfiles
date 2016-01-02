@@ -1,0 +1,21 @@
+! ray 
+! sadness
+
+#define bg      #1C1C1C
+#define fg      #898985
+#define blk     #21282C
+#define dgry    #40474B
+#define dred    #67474F
+#define red     #86676E
+#define dgrn    #4F634F
+#define grn     #6E826E
+#define dylw    #6E5747
+#define ylw     #8D7666
+#define dblu    #4f5f6E
+#define blu     #6E7E8D
+#define dmag    #574F57
+#define mag     #7A6E76
+#define dcyn    #475757 
+#define cyn     #667676
+#define lgry    #898985
+#define wht     #A8A8A5

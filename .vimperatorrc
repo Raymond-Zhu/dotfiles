@@ -1,0 +1,10 @@
+colorscheme twily
+
+nnoremap gc :emenu Tools.Web Developer.Web Console<CR>
+nmap x :quit<CR>
+nmap d <C-d>
+nmap u <C-u>
+nmap J gT
+nmap K gt
+nmap U :undo<CR>
+nmap QQ :xall<CR>

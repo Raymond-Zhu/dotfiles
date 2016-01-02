@@ -1,0 +1,3 @@
+#Start urxvt
+super + Return
+    urxvtc
