@@ -45,8 +45,5 @@ $ln "$dotfiledir/colors/gotham.vim" "$HOME/.config/nvim/colors"
 $ln "$dotfiledir/.vimperator/colors/twily.vimp" "$HOME/"
 $ln "$dotfiledir/.vimperatorrc" "$HOME/"
 
-# Need to have oh-my-zsh-installed.
-$sudoln "$dotfiledir/custom.zsh-theme" "/usr/share/oh-my-zsh/custom/themes/"
-
 # Uses PCH as sound card instead of HTML. Might not want to symlink depending on hardware.
 $ln "$dotfiledir/.asoundrc" "$HOME/"
