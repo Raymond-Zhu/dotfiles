@@ -9,4 +9,4 @@ nmap K gt
 nmap U :undo<CR>
 nmap QQ :xall<CR>
 
-set hintchars=asdfghjklqweriop
+set hintchars=asdjkl
