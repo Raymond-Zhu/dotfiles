@@ -9,8 +9,7 @@
 # 6. rofi
 # 7. Inconsolata for Powerline
 # 8. Neovim
-# 9. YouCompleteMe - From AUR, edit PKGBuild to point to nvim folder as
-#    Also needs Python2 support for Neovim
+# 9. YouCompleteMe - From AUR, edit PKGBuild to point to nvim folder. Also needs Python2 support for Neovim
 # 10. Oh-my-zsh
 # 11. Firefox - Vimperator
 
