@@ -25,8 +25,9 @@ super + {h,j,k,l}
 
 # Cycle Windows
 alt + {h,j,k,l}
-    closest.sh {h,j,k,l}
+    closest.sh {h,j,k,l}; \
     chwso -r $(pfw)
+
 # Move window to top layer
 alt + o
     chwso -r $(pfw)
