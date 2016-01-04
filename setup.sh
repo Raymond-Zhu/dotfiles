@@ -16,8 +16,6 @@
 # 13. Feh
 # 14. Wmutils/opt
 
-
-
 # Set dotfiles directory
 dotfiledir="$HOME/dotfiles"
 
@@ -30,7 +28,7 @@ mkdir "$HOME/.config/nvim"
 mkdir "$HOME/.config/nvim/colors"
 mkdir "$HOME/.config/sxhkd"
 mkdir "$HOME/bin"
-mkdir -p "$HOME/vimperator/colors/"
+mkdir -p "$HOME/.vimperator/colors/"
 #Manually run these commands
 # ln -sfvni $HOME/dotfiles/scripts/*/*.sh bin/
 # ln -sfvni $HOME/dotfiles/scripts/*.sh bin/
