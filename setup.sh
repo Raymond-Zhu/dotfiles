@@ -12,6 +12,10 @@
 # 9. YouCompleteMe - From AUR, edit PKGBuild to point to nvim folder. Also needs Python2 support for Neovim
 # 10. Oh-my-zsh
 # 11. Firefox - Vimperator
+# 12. Zsh syntax highlighting and substring history
+# 13. Feh
+# 14. Wmutils/opt
+
 
 
 # Set dotfiles directory
