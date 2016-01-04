@@ -214,7 +214,7 @@ set noswapfile
 set undofile
 set undolevels=1000
 set undoreload=10000
-set undodir=~/.vim/tmp/undo//       " undo files
+set undodir=~/.config/nvim/tmp/undo/       " undo files
 
 " }}}
 " => Text, tab, spaces, wrapping and indent related {{{

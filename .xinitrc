@@ -11,13 +11,14 @@ xset +fp /user/share/fonts/misc/ &
 xset fp rehash &
 
 #Rebind control to caps
-setxkbmap -option ctrl:swapcaps &
+#setxkbmap -option ctrl:swapcaps &
 
 # Start urxvt daemon
 #urxvtd -q -f -o &
 
 # Start compton daemon
-compton -b --config $HOME/dotfiles/compton.conf &
+compton --config $HOME/dotfiles/compton.conf &
+#compton -b --config $HOME/dotfiles/compton.conf &
 
 # Focus watcher
 focus_watcher.sh &

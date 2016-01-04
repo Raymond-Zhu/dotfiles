@@ -22,9 +22,9 @@ ln="ln -s -f -v -n -i"
 
 # Create directories
 
-mkdir "$HOME/.config/nvim"
-mkdir "$HOME/.config/nvim/colors"
-mkdir "$HOME/.config/sxhkd"
+mkdir -p "$HOME/.config/nvim"
+mkdir -p "$HOME/.config/nvim/colors"
+mkdir -p "$HOME/.config/sxhkd"
 mkdir "$HOME/bin"
 mkdir -p "$HOME/vimperator/colors/"
 #Manually run these commands
@@ -41,7 +41,7 @@ $ln "$dotfiledir/init.vim" "$HOME/.config/nvim/"
 $ln "$dotfiledir/colors/gotham.vim" "$HOME/.config/nvim/colors"
 
 #Link vimperators
-$ln "$dotfiledir/.vimperator/colors/twily.vimp" "$HOME/"
+$ln "$dotfiledir/.vimperator/colors/twily.vimp" "$HOME/.vimperator/colors"
 $ln "$dotfiledir/.vimperatorrc" "$HOME/"
 
 # Uses PCH as sound card instead of HTML. Might not want to symlink depending on hardware.

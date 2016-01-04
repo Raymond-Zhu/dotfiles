@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-ZSH=/usr/share/oh-my-zsh/
+ZSH=$HOME/.oh-my-zsh/
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -19,12 +19,6 @@ plugins=(git)
 
 #Paths
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-ZSH_CACHE_DIR=$HOME/.oh-my-zsh-cache
-if [[ ! -d $ZSH_CACHE_DIR ]]; then
-  mkdir $ZSH_CACHE_DIR
-fi
-
 source $ZSH/oh-my-zsh.sh
 
 
@@ -51,3 +45,5 @@ eval "$(dircolors ~/.dircolors)"
 #LS Colors
 LS_COLORS=$LS_COLORS:di=34:fi=0:ln=93:pi=5:so=5:cd=5:or=31:mi=31:ex=32
 export LS_COLORS
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
